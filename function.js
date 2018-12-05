@@ -4,7 +4,7 @@ function string_square(s){
         square = s.length * s.length;
     }
 
-    let result = new Object;
+    let result = new Object();
     result["result"] = square;
 
     return result;
