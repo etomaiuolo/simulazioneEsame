@@ -4,7 +4,10 @@ function string_square(s){
         square = s.length * s.length;
     }
 
-    return square;
+    let result = new Object;
+    result["result"] = square;
+
+    return result;
 }
 
 module.exports = {
