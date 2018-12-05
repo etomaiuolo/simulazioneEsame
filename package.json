@@ -1,0 +1,25 @@
+{
+  "name": "simulazioneesame",
+  "version": "1.0.0",
+  "description": "Progetto per la simulazione d'esame del 05/12/2018",
+  "main": "function.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etomaiuolo/simulazioneEsame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etomaiuolo/simulazioneEsame/issues"
+  },
+  "homepage": "https://github.com/etomaiuolo/simulazioneEsame#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
