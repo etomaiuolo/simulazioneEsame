@@ -16,7 +16,7 @@ app.get("/square", (req, res) => {
         res.status(400).send("Invalid request");
 });
 
-//app.listen(PORT, () => console.log('App listening on port '+ PORT))
+app.listen(PORT, () => console.log('App listening on port '+ PORT))
 
 module.exports = {
     app: app
